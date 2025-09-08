@@ -49,16 +49,14 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="Carpool App Homepage" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Easily Find Carpool Rides To And From College On Your Preferred Date Using The Rice Carpool Website.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A website built with React, Node, MongoDB, and GraphQL with a user-friendly experience.
               </p>
             </div>
           </div>
@@ -68,17 +66,17 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Hair Removal Website"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Hair Removal Website</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project3.png" alt="Social Media Clone" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Social Media Clone</h2>
             </div>
           </div>
         </div>

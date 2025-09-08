@@ -104,12 +104,17 @@ const Experience = () => {
             {expCards.map((card) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
-                  <GlowCard card={card}>
+                  
                     <div>
-                      <img src={card.imgPath} alt="exp-img" />
+                     
+                      {card.company!=null &&
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kROViHpt8VI?si=4kd_ktSMLrv0b2WG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                  }
                     </div>
-                  </GlowCard>
+                  
                 </div>
+                
                 <div className="xl:w-4/6">
                   <div className="flex items-start">
                     <div className="timeline-wrapper">
